@@ -1,7 +1,5 @@
-kintone-si-uploader
-===================
-
 kintone JavaScript SI sandbox
+===================
 
 
 インストール方法
