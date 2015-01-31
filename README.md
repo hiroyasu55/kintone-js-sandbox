@@ -64,13 +64,11 @@ Gulp タスクが幾つか用意されている.
 
 ファイルの変更の監視対象は現在のところは `web` 以下である.
 
-###
-
 
 ### kintone JavaScript sandboxの利用例
 
-1.Repositoryをfork
-2.Repository名をプロジェクトの名前にrename
-3.ローカルにgit clone
-4.適当に開発
-5.git push
+1. Repositoryをfork
+2. Repository名をプロジェクトの名前にrename
+3. ローカルにgit clone
+4. 適当に開発
+5. git push
