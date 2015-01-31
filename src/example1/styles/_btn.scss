@@ -1,0 +1,64 @@
+$icon-blue: #8795AD;
+$icon-green: #8FBC8F;
+
+.btn {
+  &a {
+    color: #2780E3;
+    text-decoration: none;
+  }
+  &a:focus, a:hover {
+    color: #165ca8;
+    text-decoration: underline;
+  }
+  &.btn-light {
+    background-color: $base-color;
+    border-color: $base-color;
+    &.active, &.focus, &:active, &:focus, &:hover, &.open>.dropdown-toggle {
+      color: inherit;
+      background-color: #fff;
+      border-color: #fff;
+    }
+  }
+  &.btn-white {
+    background-color: #fff;
+    border-color: #fff;
+    &.active, &.focus, &:active, &:focus, &:hover, &.open>.dropdown-toggle {
+      color: inherit;
+      background-color: $base-color;
+      border-color: $base-color;
+    }
+  }
+}
+
+.icon-btn {
+  vertical-align: middle;
+  font-size: 16px;
+  margin-top: 2px;
+  padding: 4px 8px 16px 8px;
+  display:inline-block;
+  background-repeat:no-repeat;
+  background-position:center center;
+  color:#fff;
+  height:30px;
+  line-height:26px;
+  @include css3(border-radius, 3px);
+}
+
+.icon-btn-blue {
+  background-color: darken($icon-blue, 20%);
+  margin-top: 8px;
+  &:hover {
+    color: #fff;
+    background-color: $icon-blue;
+    text-decoration: none;
+  }
+}
+
+.icon-btn-green {
+  background-color: darken($icon-green, 20%);
+  &:hover {
+    color: #fff;
+    background-color: $icon-green;
+    text-decoration: none;
+  }
+}
