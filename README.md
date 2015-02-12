@@ -1,9 +1,9 @@
 kintone JavaScript sandbox
 ===================
 
-### Nodeのインストール
+### Node(v0.10)のインストール
 
-[Node.js](http://nodejs.org/)をインストールしておく必要がある
+[Node.js](http://nodejs.org/)をインストールしておく必要がある.
 
 #### Mac
 
@@ -11,13 +11,19 @@ kintone JavaScript sandbox
   brew install node
 ```
 
-brewを使っていない場合は、[これ](http://qiita.com/is0me/items/475fdbc4d770534f9ef1)とかを参考にインストールしてください
+brewを使っていない場合は, [これ](http://qiita.com/is0me/items/475fdbc4d770534f9ef1)とかを参考にインストールしてください.
+
+[nodebrew](https://github.com/hokaccha/nodebrew)を使ってバージョン管理を行いたい場合は, [ここ](http://qiita.com/Kackey/items/b41b11bcf1c0b0d76149#mac%E7%B7%A8)とかを参考にしてください.
 
 #### Windows
 
-[これ](http://qiita.com/roana0229/items/29232508e71559d0fd5f)とかを参考にインストールしてください
-普通に、[本家](http://nodejs.org/)からパッケージをダウンロードしてインストールしてもいいです
+WindowsでNode.jsを利用する場合, [nodist](https://github.com/marcelklehr/nodist)が便利です
+[これ](http://qiita.com/Kackey/items/b41b11bcf1c0b0d76149#windows%E7%B7%A8)とかを参考にインストールしてください.インストール後は, 以下のコマンドでnodeのバージョンをv0.10.35にしてください.
 
+``` {.bash}
+  nodist + v0.10.35
+  nodist v0.10.35
+```
 
 ### 依存ライブラリのインストール
 
@@ -27,7 +33,7 @@ brewを使っていない場合は、[これ](http://qiita.com/is0me/items/475fd
   npm install
 ```
 
-以上で依存ライブラリがインストールされる。
+以上で依存ライブラリがインストールされる.
 
 
 ### JavaScriptやSASSのビルド
